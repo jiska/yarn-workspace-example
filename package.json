@@ -3,5 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "yusuke mori <210861+jiska@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
